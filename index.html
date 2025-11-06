@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deep Well Water Monitoring System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="logo-left">
+                <img src="img/mayora.png" alt="Mayora Logo">
+            </div>
+            <div class="title">
+                <h1>Deep Well Water Monitoring System</h1>
+                <p>
+                    <span id="tanggal"></span> Pukul <span id="waktu"></span>
+                </p>
+            </div>
+            <div class="logo-right">
+                <img src="img/utilization.png" alt="Inratek Logo">
+            </div>
+        </header>
+
+        <main>
+            <div class="menu-item">
+                <div class="icon">📄</div>
+                <span>REPORT</span>
+            </div>
+
+            <div class="data-display">
+                <span class="data-label">MAT</span>
+                <div class="value-circle">
+                    <span id="water-level" class="value">--.--</span>
+                    <span class="unit">Meter</span>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <div class="icon">📷</div>
+                <span>CCTV</span>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
